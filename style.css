@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container1, .container2{
+    width: 100px;
+    height: 100px;
+}
+.container1{
+    background-color: pink;
+}
+
+.container2{
+    background-color: red;
+    position:relative;
+    bottom:50px;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+.container2:hover{
+    opacity: 0;
+    /*transition:2s;*/
+}
